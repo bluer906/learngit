@@ -4,3 +4,7 @@ learngit 总结
 	·使用git add <file> 可以反复使用，添加多个文件
 	·使用git commit 命令，完成。 添加-m可以输入说明（建议）
 3.使用git status掌握工作区状态
+4.若文件有被修改 使用git diff查看修改内容
+5.HEAD指向的版本就是当前版本。使用命令git reset --hard commit_id
+6.用git log查看提交历史。可以确定回退版本的commit_id.
+7.用git reflog查看命令历史，以便确定会到未来的哪个版本。
