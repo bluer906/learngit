@@ -19,4 +19,10 @@ learngit 总结
 16.此后 每次本地提交后 使用git push origin master 推送最新修改。
 17.克隆一个仓库 git clone git@server-name:path/repo-name.git
 	也可以使用http地址 例如https://github.com/bluer906/gitskills.git
-	
+18.Git鼓励大量使用分支：
+	查看分支:git branch
+	创建分支:git branch <name>
+	切换分支:git check out <name>
+	创建+切换分支:git checkout -b <name>
+	合并某分支到当前分支：git merge <name>
+	删除分支：git branch -d <name>
