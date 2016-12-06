@@ -8,3 +8,4 @@ learngit 总结
 5.HEAD指向的版本就是当前版本。使用命令git reset --hard commit_id
 6.用git log查看提交历史。可以确定回退版本的commit_id.
 7.用git reflog查看命令历史，以便确定会到未来的哪个版本。
+8.我们创建的目录是工作区，gitadd是把工作区的文件转到暂存区（stage）里，此时因为没有确认，所以还没有进入库里。使用addcommit命令将暂存区的文件挪到master里。
