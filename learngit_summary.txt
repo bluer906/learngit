@@ -28,3 +28,9 @@ learngit 总结
 	删除分支：git branch -d <name>
 19.当git无法自动合并时，必须先解决冲突。解决后再提交合并完成。
 20.git log --graph 可以看到分支合并图。
+21.合并分支时，如果使用fast forward模式，删除分支后，会丢掉分支信息。
+22.使用git merge no-ff -m "" <branch name>融合分支
+23.	master -> 稳定，用来发布新版本
+	dev 主要任务分支 下面可以再有无数分支
+	需要时 将dev下面的分支融合到一起 然后再发布到master分支。
+24.git log -graph --pretty=oneline --abbrev-commit
