@@ -11,5 +11,5 @@ learngit 总结
 8.我们创建的目录是工作区，gitadd是把工作区的文件转到暂存区（stage）里，此时因为没有确认，所以还没有进入库里。使用addcommit命令将暂存区的文件挪到master里
 9.第一次修改 -> git add -> 第二次修改 -> git add -> git commit
 10.每次修改，如果不add到暂存区，就不会commit
-11.丢弃工作区的修改 使用git checkout --file
+11.git checkout --file 是用版本库里的版本替换工作区的版本，无论工作区修改还是还原 都可以一键删除。
 12.丢弃暂存区修改 先用 git reset HEAD file 让它回到工作区 然后再用上一步
