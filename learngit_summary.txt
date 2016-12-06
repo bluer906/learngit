@@ -34,3 +34,9 @@ learngit 总结
 	dev 主要任务分支 下面可以再有无数分支
 	需要时 将dev下面的分支融合到一起 然后再发布到master分支。
 24.git log -graph --pretty=oneline --abbrev-commit
+25.开发一个新feature，最好新建一个分支。
+	如果要丢弃一个没有被合并过的分支。可以通过git branch -D <name> 强行删除 
+26.	git tag <name>新建一个标签。
+	git tag -a <tagname> -m "" 指定标签信息
+	git tag -s <tagname> -m "" 用pgp签名标签
+	git tag 查看所有标签。
