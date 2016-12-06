@@ -13,3 +13,6 @@ learngit 总结
 10.每次修改，如果不add到暂存区，就不会commit
 11.git checkout --file 是用版本库里的版本替换工作区的版本，无论工作区修改还是还原 都可以一键删除。
 12.丢弃暂存区修改 先用 git reset HEAD file 让它回到工作区 然后再用上一步
+13.要关联一个远程库 使用命令git remote add origin git@server-name:path/repo-name.git;
+14关联后，使用 git push -u origin master第一次推送master分支后所有内容
+15.此后 每次本地提交后 使用git push origin master 推送最新修改。
